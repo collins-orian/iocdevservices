@@ -1,0 +1,48 @@
+body {
+	font-family: "Acme", sans-serif;
+}
+
+
+.home {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	text-align: center;
+	background-image: url(../images/home.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	color: white;
+}
+
+.nav-link, .nav{
+    background-color: #001227;
+    color: white;
+}
+
+.home h1 {
+	font-size: 100px;
+	color: sandybrown;
+}
+
+.btn {
+	background-color: sandybrown;
+	border: none;
+}
+
+.about {
+	height: 500px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: start;
+    background: linear-gradient(to left, #001227 50%, palegoldenrod 50%);
+}
+
+.abt-row{
+	align-items: end;
+}
+
+#abt-para{
+	padding-right: 60px;
+}
