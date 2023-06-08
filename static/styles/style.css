@@ -1,23 +1,23 @@
 body {
 	font-family: "Acme", sans-serif;
+	background-image: url(../images/home.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
-
 
 .home {
 	display: flex;
 	justify-content: end;
 	align-items: center;
 	text-align: center;
-	background-image: url(../images/home.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
 	height: 500px;
 	color: white;
 }
 
-.nav-link, .nav{
-    background-color: #001227;
-    color: white;
+.nav-link,
+.nav {
+	color: white;
 }
 
 .home h1 {
@@ -32,17 +32,31 @@ body {
 
 .about {
 	height: 500px;
-    display: flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
-    text-align: start;
-    background: linear-gradient(to left, #001227 50%, palegoldenrod 50%);
+	text-align: start;
+	background-color: palegoldenrod;
 }
 
-.abt-row{
-	align-items: end;
+.abt-row {
+	display: flex;
+	align-items: center;
 }
 
-#abt-para{
+#abt-para {
 	padding-right: 60px;
+}
+
+.features {
+	display: flex;
+	align-items: center;
+	background-color: #001227;
+	color: white;
+	height: 700px;
+}
+
+footer{
+	display: flex;
+	color: white;
 }

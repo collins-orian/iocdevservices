@@ -21,29 +21,28 @@
 		<title>Artify</title>
 	</head>
 	<body>
-		<header>
-			<ul class="nav nav-underline nav-fill justify-content-center">
+		<nav
+			class="navbar sticky-top justify-content-center"
+		>
+			<ul class="nav nav-underline">
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="#">Home</a>
+					<a class="nav-link link-home" aria-current="page" href="#">Home</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
+					<a class="nav-link link-about" href="#">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Service</a>
+					<a class="nav-link link-features" href="#">Features</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Product</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link link-contact" href="#">Contact</a>
 				</li>
 			</ul>
-		</header>
+		</nav>
 
 		<main>
-			<section class="home">
+			<section class="home" id="home-section">
 				<div class="container">
 					<h1>Artify AI</h1>
 					<p class="lead">Let your words Paint a thousand pictures...</p>
@@ -52,7 +51,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="about">
+			<section class="about" id="about-section">
 				<div class="container">
 					<div class="row abt-row">
 						<div class="col">
@@ -74,44 +73,86 @@
 							</p>
 						</div>
 						<div class="col">
-							<img src="./static/images/about.png" class="img-fluid" />
+							<img
+								src="./static/images/about.png"
+								class="img-fluid"
+								style="padding-left: 100px"
+							/>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="features">
-				<div class="features-container">
+			<section class="features" id="features-section">
+				<div class="container features-container">
 					<h2>Key Features</h2>
-					<div class="row">
-						<div class="col-md-4">
+					<br />
+					<br />
+					<div class="row text-center">
+						<div class="col">
 							<div class="feature">
-								<img src="image1.png" alt="Feature 1" />
-								<h3>Feature 1</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<img src="image1.png" />
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col">
 							<div class="feature">
 								<img src="image2.png" alt="Feature 2" />
-								<h3>Feature 2</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<h3>AI-Powered Image Generation</h3>
+								<p>
+									Harness the power of OpenAI APIs to generate high-quality,
+									realistic images based on text inputs. Experience a seamless
+									integration of cutting-edge AI technology into your creative
+									workflow.
+								</p>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col">
 							<div class="feature">
-								<img src="image3.png" alt="Feature 3" />
-								<h3>Feature 3</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<img src="image3.png" class="image-fluid" />
+							</div>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col">
+							<div class="feature">
+								<h3>Seamless Integration</h3>
+								<p>
+									Easily integrate the App into your existing creative tools,
+									platforms, or applications. With seamless integration
+									capabilities, you can incorporate the text-to-image
+									functionality into your preferred workflow, enhancing your
+									creative process and maximizing productivity.
+								</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="feature">
+								<img src="image2.png" class="image-fluid" />
+							</div>
+						</div>
+						<div class="col">
+							<div class="feature">
+								<h3>High-Quality Results</h3>
+								<p>
+									Immerse yourself in stunning, high-quality image outputs that
+									exceed expectations. The App leverages OpenAI's
+									state-of-the-art models and algorithms to deliver exceptional
+									visual quality, making your creations visually impactful and
+									professional.
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
+			</section>
+
+			<section class="contact" id="contact-section">
+				<div class="container">Contact</div>
 			</section>
 		</main>
 
 		<footer>
-			<div class="container">
+			<div class="container text-center">
 				<p>&copy; 2023 Artify. All rights reserved.</p>
 			</div>
 		</footer>
@@ -131,5 +172,6 @@
 			integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
 			crossorigin="anonymous"
 		></script>
+		<script src="./static/js/script.js"></script>
 	</body>
 </html>
