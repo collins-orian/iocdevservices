@@ -1,177 +1,992 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-			crossorigin="anonymous"
-		/>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="./static/styles/style.css" />
+		<!-- Google Tag Manager -->
+		<script>
+			(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != "dataLayer" ? "&l=" + l : "";
+				j.async = true;
+				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, "script", "dataLayer", "GTM-5BB8W2X");
+		</script>
+		<!-- End Google Tag Manager -->
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-		<title>Artify</title>
+		<title>Personal Portfolio</title>
+		<meta content="" name="descriptison" />
+		<meta content="" name="keywords" />
+
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+			rel="stylesheet"
+		/>
+
+		<!-- Vendor CSS Files -->
+		<link
+			href="assets/vendor/bootstrap/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+		<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+		<link
+			href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+			rel="stylesheet"
+		/>
+		<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+		<link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+
+		<!-- Template Main CSS File -->
+		<link href="assets/css/style.css" rel="stylesheet" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "UA-169007209-3");
+		</script>
+
+		<!-- =======================================================
+  * Template Name: Personal - v2.1.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 	</head>
+
 	<body>
-		<nav
-			class="navbar sticky-top justify-content-center"
-		>
-			<ul class="nav nav-underline">
-				<li class="nav-item">
-					<a class="nav-link link-home" aria-current="page" href="#">Home</a>
-				</li>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			></iframe
+		></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<!-- ======= Header ======= -->
+		<header id="header" class="header-tops">
+			<div class="container">
+				<h1><a href="index.html">Oshioregbeme Collins Inaboya</a></h1>
+				<h2 style="color: #fff">
+					I'm a(n) <span class="typing" style="color: #12d640"></span>
+				</h2>
+				<nav class="nav-menu d-none d-lg-block">
+					<ul>
+						<li class="active">
+							<a href="#header"> <span>Home</span></a>
+						</li>
+						<li>
+							<a href="#about"><span>About</span></a>
+						</li>
+						<li>
+							<a href="#education"> <span>Education</span></a>
+						</li>
+						<li>
+							<a href="#experience"> <span>Experience</span></a>
+						</li>
+						<!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
+						<li>
+							<a href="#portfolio"> <span>Projects</span></a>
+						</li>
+						<li>
+							<a href="#skills"> <span>Skills</span></a>
+						</li>
+						<li>
+							<a
+								href="https://drive.google.com/file/d/1_w8chBloUth77fNcfiTL0p6JibpJ2WGi/view?usp=sharing"
+								target="_blank"
+							>
+								<span>Resume</span></a
+							>
+						</li>
+						<!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
+						<li>
+							<a href="#contacts"> <span>Contact</span></a>
+						</li>
+					</ul>
+				</nav>
+				<!-- .nav-menu -->
 
-				<li class="nav-item">
-					<a class="nav-link link-about" href="#">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link link-features" href="#">Features</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link link-contact" href="#">Contact</a>
-				</li>
-			</ul>
-		</nav>
+				<div class="social-links">
+					<a
+						href="https://www.linkedin.com/in/oshioregbeme-inaboya/"
+						target="_blank"
+						class="linkedin"
+						><i class="bx bxl-linkedin"></i
+					></a>
+					<a
+						href="https://github.com/collins-orian"
+						target="_blank"
+						class="github"
+						><i class="bx bxl-github"></i
+					></a>
+					<a
+						href="mailto:iocdevservices@outlook.com"
+						target="_blank"
+						class="google"
+						><i class="bx bxl-google"></i
+					></a>
+				</div>
+			</div>
+		</header>
+		<!-- End Header -->
 
-		<main>
-			<section class="home" id="home-section">
-				<div class="container">
-					<h1>Artify AI</h1>
-					<p class="lead">Let your words Paint a thousand pictures...</p>
-					<div class="cta-buttons">
-						<a href="#" class="btn btn-warning">Generate</a>
+		<!-- ======= About Section ======= -->
+		<section id="about" class="about">
+			<!-- ======= About Me ======= -->
+			<div class="about-me container">
+				<div class="section-title">
+					<h2>About</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4" data-aos="fade-right">
+						<img src="assets/img/profile.jpg" class="img-fluid" alt="" />
+					</div>
+					<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+						<p>
+							As a medical laboratory scientist with software engineering skills
+							and experience in IT support, I am uniquely qualified to solve
+							complex problems and improve the efficiency and accuracy of
+							laboratory workflows. I have a deep understanding of the
+							challenges faced by medical laboratory professionals, as well as
+							the technical skills to develop innovative solutions.<br /><br />I
+							am proficient in a variety of programming languages and
+							technologies, which I use to create custom software solutions for
+							the medical laboratory setting. For example, I developed a
+							lightweight LIMS web application for data management solutions.
+							This application has helped laboratory staff to more efficiently
+							and accurately manage laboratory data, such as patient samples,
+							test results, and inventory.<br /><br />In addition to my software
+							engineering and IT support skills, I am also an expert in quality
+							management and process improvement. I am passionate about
+							developing and implementing systems and procedures that ensure the
+							highest standards of quality and accuracy in the laboratory. I am
+							also skilled at identifying and troubleshooting potential
+							problems, and developing and implementing corrective actions.<br /><br />I
+							am committed to using my skills and experience to make a positive
+							impact on the field of medical laboratory science. I believe that
+							innovative software solutions and IT support have the potential to
+							revolutionise the way that laboratories operate, and I am excited
+							to be a part of this transformation.<br /><br />I am confident
+							that my skills and experience as a medical laboratory scientist,
+							software engineer, IT support specialist, and quality management
+							expert make me a valuable asset to any healthcare and software
+							development team. I am passionate about using technology to
+							improve the quality and efficiency of healthcare delivery, and I
+							am excited to continue to develop innovative solutions that can
+							make a real difference in the lives of patients.
+						</p>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul>
+									<li>
+										<i class="icofont-rounded-right"></i>
+										<strong>Birthday:</strong> 31 January
+									</li>
+									<li>
+										<i class="icofont-rounded-right"></i>
+										<strong>Phone:</strong> +234 916 292 2744
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<ul>
+									<li>
+										<i class="icofont-rounded-right"></i>
+										<strong>City:</strong> Port harcourt, Nigeria
+									</li>
+									<li>
+										<i class="icofont-rounded-right"></i>
+										<strong>Email:</strong> iocdevservices@outlook.com
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
-			</section>
-			<section class="about" id="about-section">
+			</div>
+			<!-- End About Me -->
+
+			<!-- ======= Interests ======= -->
+			<div class="interests container">
+				<div class="section-title">
+					<h2>Interests</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-3 col-md-4">
+						<div class="icon-box">
+							<i class="ri-global-line" style="color: #ffbb2c"></i>
+							<h3>Web Application Development</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+						<div class="icon-box">
+							<i class="ri-lock-fill" style="color: #1c7d32"></i>
+							<h3>Cybersecurity</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+						<div class="icon-box">
+							<i class="ri-database-2-line" style="color: #5578ff"></i>
+							<h3>Machine Learning</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+						<div class="icon-box">
+							<i class="ri-heart-add-fill" style="color: #e80368"></i>
+							<h3>Health Technology</h3>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="ri-code-s-slash-fill" style="color: #28a745"></i>
+							<h3>Software Engineering</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="ri-bar-chart-box-line" style="color: #f1081f"></i>
+							<h3>Visualization</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="ri-file-list-3-line" style="color: #47aeff"></i>
+							<h3>Algorithms</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Interests -->
+		</section>
+		<!-- End About Section -->
+
+		<!-- ======= Education Section ======= -->
+		<section id="education" class="services">
+			<div class="container">
+				<div class="section-title">
+					<h2>Education</h2>
+				</div>
+				<div class="row">
+					<div
+						class="col-lg-12"
+						data-aos="fade-up"
+						style="display: inline-block"
+					>
+						<div
+							class="col-md-4 mt-4 mt-md-0 icon-box"
+							data-aos="fade-up"
+							data-aos-delay="100"
+							style="
+								padding: 0px 0px;
+								padding-bottom: 5px;
+								display: inline-block;
+							"
+						>
+							<img
+								src="assets/img/education/ALX.jpg"
+								class="img-fluid"
+								alt=""
+							/>
+							<!-- <h4 style="text-align:left;"><a href="https://www.asu.edu/" target="_blank" style="color:#12d640">Arizona State University</a><br> </h4> -->
+							<p style="text-align: left; color: #fff; padding: 5px 10px">
+								<em>Diploma in Software Engineering</em>
+							</p>
+							<h5 style="text-align: left; padding: 0px 10px">
+								August, 2022 - September, 2023
+							</h5>
+							<h6 style="text-align: left; color: #fff; padding: 0px 10px">
+								Relevant Coursework
+							</h6>
+							<ul style="text-align: left; color: #fff">
+								<li>Data Structures &amp; Algorithms</li>
+								<li>Programming Languages</li>
+								<li>Databases</li>
+								<li>System Admimistration</li>
+								<li>Cloud Computing</li>
+								<li>DevOps</li>
+								<li>Web-App Development Development</li>
+								<li>Software Engineering Principles</li>
+								<li>Project Management</li>
+							</ul>
+						</div>
+						<div
+							class="col-md-4 mt-4 mt-md-0 icon-box"
+							data-aos="fade-up"
+							data-aos-delay="100"
+							style="
+								padding: 0px 0px;
+								padding-bottom: 5px;
+								display: inline-block;
+							"
+						>
+							<img
+								src="assets/img/education/RSU.png"
+								class="img-fluid"
+								alt=""
+								style="background-color: white"
+							/>
+							<!-- <h4 style="text-align:left;"><a href="https://ahduni.edu.in/" target="_blank" style="color:#12d640">Ahmedabad University</a><br> </h4> -->
+							<p style="text-align: left; color: #fff; padding: 5px 10px">
+								<em>B.MLS in Medical Laboratory Science</em>
+							</p>
+							<h5 style="text-align: left; padding: 0px 10px">
+								September, 2014 - August, 2019
+							</h5>
+							<h6 style="text-align: left; color: #fff; padding: 0px 10px">
+								Relevant Coursework
+							</h6>
+							<ul style="text-align: left; color: #fff">
+								<li>Quality Management</li>
+								<li>Clinical Haematology</li>
+								<li>Clinical Chemistry</li>
+								<li>Medical Microbiology</li>
+								<li>Blood Banking and Transfusion Science</li>
+								<li>Molecular Biology</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio">
 				<div class="container">
-					<div class="row abt-row">
-						<div class="col">
-							<h2>ABOUT</h2>
-							<p id="abt-para">
-								Welcome to Artify, where the magic of words meets the art of
-								imagery. With our revolutionary text to image AI generator
-								utilizing OpenAI APIs, unleash your creativity like never
-								before. Transform your written ideas, narratives, and
-								descriptions into stunning visual masterpieces with just a few
-								clicks. Artify empowers writers, marketers, designers, and
-								creative enthusiasts to bring their visions to life by
-								seamlessly converting text into captivating, vibrant, and
-								visually striking images. Step into a world where the boundaries
-								between text and image blur, and where the possibilities of
-								visual expression are limitless. Artify invites you to embark on
-								a journey of inspiration, where words become a visual tapestry
-								of boundless imagination.
+					<div class="section-title">
+						<h2>Online Certification</h2>
+					</div>
+
+					<div
+						class="row portfolio-container"
+						style="position: relative; height: 437.75px"
+					>
+						<div
+							class="col-lg-4 col-md-6 portfolio-item filter-app"
+							style="position: absolute; left: 0px; top: 0px"
+						>
+							<div class="portfolio-wrap">
+								<img
+									src="assets/img/certification/CC.jpeg"
+									class="img-fluid"
+									alt=""
+								/>
+								<div class="portfolio-info">
+									<h4>Cybersecurity</h4>
+									<div class="portfolio-links">
+										<a
+											href="https://drive.google.com/file/d/1hxq3UsZRh69dO5UN3UcUAEAdq2pg8C2b/view?usp=sharing"
+											target="_blank"
+											title="Certificate"
+											><i class="bx bx-link"></i
+										></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="col-lg-4 col-md-6 portfolio-item filter-app"
+							style="position: absolute; left: 370px; top: 0px"
+						>
+							<div class="portfolio-wrap">
+								<img
+									src="assets/img/certification/ALX.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<div class="portfolio-info">
+									<h4>Software Engineering</h4>
+									<div class="portfolio-links">
+										<a
+											href="https://drive.google.com/file/d/155zg-c9U_HjnVFPouKLoaIjB88pwWo8E/view?usp=sharing"
+											target="_blank"
+											title="Certificate"
+											><i class="bx bx-link"></i
+										></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="col-lg-4 col-md-6 portfolio-item filter-app"
+							style="position: absolute; left: 740px; top: 0px"
+						>
+							<div class="portfolio-wrap">
+								<img
+									src="assets/img/certification/GITS.png"
+									class="img-fluid"
+									alt=""
+									style="background-color: white"
+								/>
+								<div class="portfolio-info">
+									<h4>Information Technology Support Support</h4>
+									<div class="portfolio-links">
+										<a
+											href="https://www.coursera.org/account/accomplishments/professional-cert/7XRQTSSQR6VS"
+											target="_blank"
+											title="Certificate"
+											><i class="bx bx-link"></i
+										></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Education Section -->
+
+		<!-- Start Experience Section -->
+
+		<section id="experience" class="services">
+			<div class="container">
+				<div class="section-title">
+					<h2>Experience</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-12" data-aos="fade-up">
+						<div
+							class="col-md-12 mt-4 mt-md-0 icon-box"
+							data-aos="fade-up"
+							data-aos-delay="100"
+						>
+							<h4 style="text-align: left; color: #12d640">
+								Self Employed<br />
+							</h4>
+
+							<h5 style="text-align: left">September 2022 - Present</h5>
+							<p style="text-align: left; color: #fff">
+								<em>Software Engineer | Web Developer </em>
+							</p>
+							<ul style="text-align: left">
+								<li>
+									Managing projects efficiently, setting clear milestones, and
+									maintaining effective communication channels with clients.
+								</li>
+								<li>
+									Delivering high-quality solutions across multiple programming
+									languages and platforms with ongoing knowledge updates to stay
+									current.
+								</li>
+								<li>
+									Building strong client relationships by understanding their
+									needs, providing regular updates, and responding to concerns
+									quickly and professionally
+								</li>
+								<li>
+									Proactively seeking new freelance opportunities by networking,
+									marketing services, and establishing a reputation as a
+									reliable and skilled developer to attract and retain clients.
+								</li>
+							</ul>
+						</div>
+						<div
+							class="col-md-12 mt-4 mt-md-0 icon-box"
+							data-aos="fade-up"
+							data-aos-delay="100"
+						>
+							<h4 style="text-align: left; color: #12d640">
+								Military Hospital Port Harcourt<br />
+							</h4>
+							<h5 style="text-align: left">August 2020 - November 2020</h5>
+							<p style="text-align: left; color: #fff">
+								<em>Software Engineer | Assistant Quality Assurance Officer</em>
+							</p>
+							<ul style="text-align: left">
+								<li>
+									Collaboration with laboratory personnel to understand and
+									analyze specific requirements for LIMS software, including
+									workflows, data management, and compliance issues.
+								</li>
+								<li>
+									Assuring data integration, security, scalability, and
+									interoperability with existing laboratory equipment and
+									systems through the design and architecture of the system and
+									software modules.
+								</li>
+								<li>
+									Implementing LIMS software by writing clean, efficient code
+									and testing to ensure functionality, reliability, and
+									compliance with quality standards.
+								</li>
+								<li>
+									Assuring successful adoption and continuous improvement of
+									LIMS software by collaborating with stakeholders, providing
+									training to end users, and providing ongoing support.
+								</li>
+								<li>
+									Providing training and support to laboratory personnel on
+									quality-related topics. This includes training on proper
+									documentation procedures, implementing new quality procedures,
+									conducting audits to ensure compliance, etc.
+								</li>
+								<li>
+									Providing training and support to laboratory personnel on
+									quality-related topics. This includes training on proper
+									documentation procedures, implementing new quality procedures,
+									conducting audits to ensure compliance, etc.
+								</li>
+							</ul>
+						</div>
+						<div
+							class="col-md-12 mt-4 mt-md-0 icon-box"
+							data-aos="fade-up"
+							data-aos-delay="100"
+						>
+							<h4 style="text-align: left; color: #12d640">
+								Institute of Human Virology Nigeria<br />
+							</h4>
+							<h5 style="text-align: left">January 2019 - Present</h5>
+							<p style="text-align: left; color: #fff">
+								<em>Molecular Scientist (Volunteer) | IT Support Specialist</em>
+							</p>
+							<ul style="text-align: left">
+								<li>
+									Delivered IT Solutions to facilitate efficiency within the
+									workspace and management of datamanagement systems.
+								</li>
+								<li>
+									Analysed data to identify opportunities for improvement and
+									also learn new skills and apply them to daily tasks to improve
+									efficiency and productivity.
+								</li>
+								<li>
+									Organized sample data with the aid of the Laboratory
+									Information Management System (LIMS)
+								</li>
+								<li>
+									Maintain strict aseptic fields when collecting biological
+									samples, minimizing staff and patient infection risks
+									following operational IPC concepts and QMS principles.
+								</li>
+								<li>
+									Perform safe daily aliquoting of PCR samples for analysis and
+									archiving.
+								</li>
+								<li>
+									Received, documented and assigned laboratory numbers to the
+									daily inflow of over 350 samples of PCR samples.
+								</li>
+							</ul>
+						</div>
+						<div
+							class="col-md-12 mt-4 mt-md-0 icon-box"
+							data-aos="fade-up"
+							data-aos-delay="100"
+						>
+							<h4 style="text-align: left; color: #12d640">
+								Medbury Medical Services<br />
+							</h4>
+							<h5 style="text-align: left">May 2018 - June 2018</h5>
+							<p style="text-align: left; color: #fff">
+								<em>Medical Laboratory Scientist | IT Support Specialist</em>
+							</p>
+							<ul style="text-align: left">
+								<li>
+									IT Support Role which included IT solutions engineering,
+									problem-solving, hardware installation, hardware
+									troubleshooting, fixing Network Connectivity issues, creating
+									new templates for data entry and problem-solving.
+								</li>
+								<li>
+									Performed sample collection and molecular analysis of
+									nasopharyngeal and oropharyngeal samples, giving reports
+									pertaining to the current state of the COVID-19 pandemic in
+									Nigeria in efforts to control the rate of infection and
+									transmission in the country.
+								</li>
+								<li>
+									Actively participated in quality control diagnostic testing,
+									documenting variances in results and blood product
+									performance.
+								</li>
+							</ul>
+						</div>
+						<div
+							class="col-md-12 mt-4 mt-md-0 icon-box"
+							data-aos="fade-up"
+							data-aos-delay="100"
+						>
+							<h4 style="text-align: left; color: #12d640">
+								Lily Hospitals Limited<br />
+							</h4>
+							<h5 style="text-align: left">Jan 2018 - May 2018</h5>
+							<p style="text-align: left; color: #fff">
+								<em>
+									Medical Laboratory Scientist Intern | IT Support
+									Specialist</em
+								>
+							</p>
+							<ul style="text-align: left">
+								<li>
+									Handled The Laboratory Information Management System (LIMS),
+									as well as assisting in IT support if need be, by solving
+									network connectivity issues, Hardware issues, troubleshooting,
+									data management, and solutions engineering.
+								</li>
+								<li>
+									Actively participated in quality control diagnostic testing,
+									documenting variances in results and blood product
+									performance.
+								</li>
+								<li>
+									Tested specimens and blood products in accordance with ISO &
+									COHSASA standard operating procedures.
+								</li>
+								<li>
+									Identified and resolved unexpected results, directing
+									secondary testing measures or collection efforts.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End Experience Section -->
+
+		<!-- Start Project Section -->
+		<section id="portfolio" class="portfolio">
+			<div class="container">
+				<div class="section-title">
+					<h2>Projects</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-12 d-flex justify-content-center">
+						<ul id="portfolio-flters">
+							<li data-filter="*" class="filter-active">All</li>
+							<li data-filter=".filter-app">Web-App</li>
+							<li data-filter=".filter-project">Project</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row portfolio-container">
+					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+						<center>
+							<h4>Laboratory Information Management System (LabXact)</h4>
+						</center>
+						<div class="portfolio-wrap">
+							<img
+								src="assets/img/project/labxact.png"
+								class="img-fluid"
+								alt=""
+							/>
+							<div class="portfolio-info">
+								<div class="portfolio-links">
+									<a
+										href="projects/labxact.html"
+										data-gall="portfolioDetailsGallery"
+										data-vbtype="iframe"
+										class="venobox"
+										title="Project Details"
+										><i class="bx bx-info-circle"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+						<center>
+							<h4>Laboratory E-Commerce Web-Application (LabEquip)</h4>
+						</center>
+						<div class="portfolio-wrap">
+							<img
+								src="assets/img/project/labequip.png"
+								class="img-fluid"
+								alt=""
+							/>
+							<div class="portfolio-info">
+								<div class="portfolio-links">
+									<a
+										href="projects/labequip.html"
+										data-gall="portfolioDetailsGallery"
+										data-vbtype="iframe"
+										class="venobox"
+										title="Project Details"
+										><i class="bx bx-info-circle"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+						<br>
+						<center><h4>Image Generator</h4></center>
+						<div class="portfolio-wrap">
+							<img src="assets/img/project/gan.jpg" class="img-fluid" alt="" />
+							<div class="portfolio-info">
+								<div class="portfolio-links">
+									<a
+										href="projects/gan.html"
+										data-gall="portfolioDetailsGallery"
+										data-vbtype="iframe"
+										class="venobox"
+										title="Project Details"
+										><i class="bx bx-info-circle"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</section>
+
+		<!-- End Project Section -->
+
+		<!-- Start Skills Section -->
+
+		<section id="skills" class="services">
+			<div class="container">
+				<div class="section-title">
+					<h2>Skills</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-12" data-aos="fade-up">
+						<div
+							class="col-md-12 mt-4 mt-md-0 icon-box"
+							data-aos="fade-up"
+							data-aos-delay="100"
+							style="background: #fff"
+						>
+							<h4 style="text-align: left; color: #09203a">
+								Languages and Databases
+							</h4>
+							<p style="text-align: left">
+								<img
+									src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"
+									alt="vectorlogo.zone"
+									height="50"
+									width="150"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+									alt="upload.wikimedia.org"
+									height="60"
+									width="90"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg"
+									alt="vectorlogo.zone"
+									height="70"
+									width="130"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg"
+									alt="vectorlogo.zone"
+									height="50"
+									width="190"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
+									alt="vectorlogo.zone"
+									height="100"
+									width="140"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg"
+									alt="vectorlogo.zone"
+									height="90"
+									width="100"
+								/>
 							</p>
 						</div>
-						<div class="col">
-							<img
-								src="./static/images/about.png"
-								class="img-fluid"
-								style="padding-left: 100px"
-							/>
+						<div
+							class="col-md-12 mt-4 mt-md-0 icon-box"
+							data-aos="lefade-up"
+							data-aos-delay="100"
+							style="background: #fff"
+						>
+							<h4 style="text-align: left; color: #09203a">Frameworks</h4>
+							<p style="text-align: left">
+								<img
+									src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
+									alt="vectorlogo.zone"
+								/>
+							</p>
+						</div>
+						<div
+							class="col-md-12 mt-4 mt-md-0 icon-box"
+							data-aos="lefade-up"
+							data-aos-delay="100"
+							style="background: #fff"
+						>
+							<h4 style="text-align: left; color: #09203a">Tools</h4>
+							<p style="text-align: left">
+								<img
+									src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-ar21.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg"
+									alt="vectorlogo.zone"
+								/>
+								<img
+									src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"
+									alt="vectorlogo.zone"
+									height="100"
+									width="190"
+								/>
+							</p>
 						</div>
 					</div>
 				</div>
-			</section>
-
-			<section class="features" id="features-section">
-				<div class="container features-container">
-					<h2>Key Features</h2>
-					<br />
-					<br />
-					<div class="row text-center">
-						<div class="col">
-							<div class="feature">
-								<img src="image1.png" />
-							</div>
-						</div>
-						<div class="col">
-							<div class="feature">
-								<img src="image2.png" alt="Feature 2" />
-								<h3>AI-Powered Image Generation</h3>
-								<p>
-									Harness the power of OpenAI APIs to generate high-quality,
-									realistic images based on text inputs. Experience a seamless
-									integration of cutting-edge AI technology into your creative
-									workflow.
-								</p>
-							</div>
-						</div>
-						<div class="col">
-							<div class="feature">
-								<img src="image3.png" class="image-fluid" />
-							</div>
-						</div>
-					</div>
-					<div class="row text-center">
-						<div class="col">
-							<div class="feature">
-								<h3>Seamless Integration</h3>
-								<p>
-									Easily integrate the App into your existing creative tools,
-									platforms, or applications. With seamless integration
-									capabilities, you can incorporate the text-to-image
-									functionality into your preferred workflow, enhancing your
-									creative process and maximizing productivity.
-								</p>
-							</div>
-						</div>
-						<div class="col">
-							<div class="feature">
-								<img src="image2.png" class="image-fluid" />
-							</div>
-						</div>
-						<div class="col">
-							<div class="feature">
-								<h3>High-Quality Results</h3>
-								<p>
-									Immerse yourself in stunning, high-quality image outputs that
-									exceed expectations. The App leverages OpenAI's
-									state-of-the-art models and algorithms to deliver exceptional
-									visual quality, making your creations visually impactful and
-									professional.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="contact" id="contact-section">
-				<div class="container">Contact</div>
-			</section>
-		</main>
-
-		<footer>
-			<div class="container text-center">
-				<p>&copy; 2023 Artify. All rights reserved.</p>
 			</div>
-		</footer>
+		</section>
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-			integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-			crossorigin="anonymous"
-		></script>
-		<script src="./static/js/script.js"></script>
+		<!-- End Skills Section -->
+
+		<!-- Start Contact Section -->
+
+		<section id="contacts" class="contact">
+			<div class="container">
+				<div class="section-title">
+					<h2>Contact</h2>
+				</div>
+
+				<div class="row mt-2">
+					<div class="col-md-6 d-flex align-items-stretch">
+						<div class="info-box">
+							<i class="bx bx-map"></i>
+							<h3>My Address</h3>
+							<p>47a Bekwere Wosu Street, D/Line</p>
+							<p>Port Harcourt, 500261</p>
+							<p>Rivers State, Nigeria</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+						<div class="info-box">
+							<i class="bx bx-share-alt"></i>
+							<h3>Social Profiles</h3>
+							<div class="social-links">
+								<a
+									href="https://www.linkedin.com/in/oshioregbeme-inaboya/"
+									target="_blank"
+									class="linkedin"
+									><i class="bx bxl-linkedin"></i
+								></a>
+								<a
+									href="https://github.com/collins-orian"
+									target="_blank"
+									class="github"
+									><i class="bx bxl-github"></i
+								></a>
+								<a
+									href="mailto:iocdevservices@outlook.com"
+									target="_blank"
+									class="google"
+									><i class="bx bxl-google"></i
+								></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 mt-4 d-flex align-items-stretch">
+						<div class="info-box">
+							<i class="bx bx-envelope"></i>
+							<h3>Email</h3>
+							<p>iocdevservices@outlook.com</p>
+						</div>
+					</div>
+					<div class="col-md-6 mt-4 d-flex align-items-stretch">
+						<div class="info-box">
+							<i class="bx bx-phone-call"></i>
+							<h3>Contact</h3>
+							<p>+234 916 292 2744</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
+			</div>
+		</section>
+
+		<!-- End Contact Section -->
+
+		<!-- Vendor JS Files -->
+		<script src="assets/vendor/jquery/jquery.min.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="assets/vendor/php-email-form/validate.js"></script>
+		<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+		<script src="assets/vendor/counterup/counterup.min.js"></script>
+		<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+		<script src="assets/vendor/venobox/venobox.min.js"></script>
+		<script src="assets/vendor/typed.js/typed.min.js"></script>
+		<script type="text/javascript">
+			var typed = new Typed(".typing", {
+				strings: [
+					"Software Engineer",
+					"Cybersecurity Professional",
+					"Healthcare Practitioner",
+					"AI Enthusiast",
+				],
+				loop: true,
+				typeSpeed: 75,
+				backSpeed: 75,
+			});
+		</script>
+
+		<!-- Template Main JS File -->
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
